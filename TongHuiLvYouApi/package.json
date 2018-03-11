@@ -1,0 +1,40 @@
+{
+  "name": "hlyapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "apiSave": "apidoc -i ./routes -o D:\\lx\\hly\\api",
+    "apiStart": "http-server D:\\lx\\hly\\api -p 4001 -o",
+    "htbuildApi": "apidoc -i ./houtai/routes -o D:\\lx\\hly\\htapi",
+    "htstartApi": "http-server D:\\lx\\hly\\htapi -p 8062 -o "
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "blueimp-md5": "^2.10.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "fs": "0.0.1-security",
+    "gbk-body": "^1.0.0",
+    "iconv-lite": "^0.4.19",
+    "jade": "~1.11.0",
+    "log4js": "^1.1.1",
+    "moment": "^2.18.1",
+    "morgan": "~1.8.1",
+    "multer": "^1.3.0",
+    "mysql": "^2.14.1",
+    "node-schedule": "^1.2.5",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "serve-favicon": "~2.4.2",
+    "soap": "^0.20.0",
+    "sqlstring": "^2.3.0",
+    "urlencode": "^1.1.0",
+    "wxbarcode": "^1.0.2",
+    "xml2js": "^0.4.19"
+  }
+}

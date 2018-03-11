@@ -1,0 +1,7 @@
+{
+  "name": "惠旅游api文档",
+  "version": "0.1.0",
+  "description": "地址： http://127.0.0.0.1:3001\n 统一返回码 \n 1 成功 \n 2 失败 \n 3   \n ",
+  "title": "惠旅游",
+  "sampleUrl":"https://ly.thgo8.com"
+}
